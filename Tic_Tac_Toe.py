@@ -10,7 +10,7 @@ root.resizable(width=False, height=False)
 chance = True
 counting = 0
 winner = False
-sent = "Winner is "
+sent = " won"
 
 
 # making functions
@@ -36,7 +36,7 @@ def win():
         b2.config(bg='#FA8072')
         b3.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic Tac Toe", sent+ entry.get())
+        messagebox.showinfo("Tic Tac Toe", entry.get()+sent)
         disable()
 
     elif b4["text"] == 'X' and b5["text"] == 'X' and b6["text"] == 'X':
@@ -44,7 +44,7 @@ def win():
         b5.config(bg='#FA8072')
         b6.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
+        messagebox.showinfo("Tic-tac-Toe", entry.get()+sent)
         disable()
 
     elif b7["text"] == 'X' and b8["text"] == 'X' and b9["text"] == 'X':
@@ -52,7 +52,7 @@ def win():
         b8.config(bg='#FA8072')
         b9.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
+        messagebox.showinfo("Tic-tac-Toe", entry.get()+sent)
         disable()
 
     elif b1["text"] == 'X' and b4["text"] == 'X' and b7["text"] == 'X':
@@ -60,7 +60,7 @@ def win():
         b4.config(bg='#FA8072')
         b7.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
+        messagebox.showinfo("Tic-tac-Toe", entry.get()+sent)
         disable()
 
     elif b2["text"] == 'X' and b5["text"] == 'X' and b8["text"] == 'X':
@@ -68,7 +68,7 @@ def win():
         b5.config(bg='#FA8072')
         b8.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
+        messagebox.showinfo("Tic-tac-Toe", entry.get()+sent)
         disable()
 
     elif b3["text"] == 'X' and b6["text"] == 'X' and b9["text"] == 'X':
@@ -76,7 +76,7 @@ def win():
         b6.config(bg='#FA8072')
         b9.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
+        messagebox.showinfo("Tic-tac-Toe", entry.get()+sent)
         disable()
 
     elif b1["text"] == 'X' and b5["text"] == 'X' and b9["text"] == 'X':
@@ -84,7 +84,7 @@ def win():
         b5.config(bg='#FA8072')
         b9.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
+        messagebox.showinfo("Tic-tac-Toe", entry.get()+sent)
         disable()
 
     elif b3["text"] == 'X' and b5["text"] == 'X' and b7["text"] == 'X':
@@ -92,7 +92,7 @@ def win():
         b5.config(bg='#FA8072')
         b7.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
+        messagebox.showinfo("Tic-tac-Toe", entry.get()+sent)
         disable()
 
     # checking for o
@@ -101,7 +101,7 @@ def win():
         b2.config(bg='#FA8072')
         b3.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
 
     elif b4["text"] == 'O' and b5["text"] == 'O' and b6["text"] == 'O':
@@ -109,7 +109,7 @@ def win():
         b5.config(bg='#FA8072')
         b6.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
 
     elif b7["text"] == 'O' and b8["text"] == 'O' and b9["text"] == 'O':
@@ -117,7 +117,7 @@ def win():
         b8.config(bg='#FA8072')
         b9.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
 
     elif b1["text"] == 'O' and b4["text"] == 'O' and b7["text"] == 'O':
@@ -125,7 +125,7 @@ def win():
         b4.config(bg='#FA8072')
         b7.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
 
     elif b2["text"] == 'O' and b5["text"] == 'O' and b8["text"] == 'O':
@@ -133,7 +133,7 @@ def win():
         b5.config(bg='#FA8072')
         b8.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
 
     elif b3["text"] == 'O' and b6["text"] == 'O' and b9["text"] == 'O':
@@ -141,7 +141,7 @@ def win():
         b6.config(bg='#FA8072')
         b9.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
 
     elif b1["text"] == 'O' and b5["text"] == 'O' and b9["text"] == 'O':
@@ -149,7 +149,7 @@ def win():
         b5.config(bg='#FA8072')
         b9.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
 
     elif b3["text"] == 'O' and b5["text"] == 'O' and b7["text"] == 'O':
@@ -157,7 +157,7 @@ def win():
         b5.config(bg='#FA8072')
         b7.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", entry2.get()+sent)
         disable()
     # checking for tie
     elif counting == 9 and winner == False:
