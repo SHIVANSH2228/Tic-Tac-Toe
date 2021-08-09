@@ -32,130 +32,130 @@ def win():
     global entry, sent, entry2
     # checking for x
     if b1["text"] == 'X' and b2["text"] == 'X' and b3["text"] == 'X':
-        b1.config(bg='red')
-        b2.config(bg='red')
-        b3.config(bg='red')
+        b1.config(bg='#FA8072')
+        b2.config(bg='#FA8072')
+        b3.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic Tac Toe", sent+ entry.get())
         disable()
 
     elif b4["text"] == 'X' and b5["text"] == 'X' and b6["text"] == 'X':
-        b4.config(bg='red')
-        b5.config(bg='red')
-        b6.config(bg='red')
+        b4.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b6.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
         disable()
 
     elif b7["text"] == 'X' and b8["text"] == 'X' and b9["text"] == 'X':
-        b7.config(bg='red')
-        b8.config(bg='red')
-        b9.config(bg='red')
+        b7.config(bg='#FA8072')
+        b8.config(bg='#FA8072')
+        b9.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
         disable()
 
     elif b1["text"] == 'X' and b4["text"] == 'X' and b7["text"] == 'X':
-        b1.config(bg='red')
-        b4.config(bg='red')
-        b7.config(bg='red')
+        b1.config(bg='#FA8072')
+        b4.config(bg='#FA8072')
+        b7.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
         disable()
 
     elif b2["text"] == 'X' and b5["text"] == 'X' and b8["text"] == 'X':
-        b2.config(bg='red')
-        b5.config(bg='red')
-        b8.config(bg='red')
+        b2.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b8.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
         disable()
 
     elif b3["text"] == 'X' and b6["text"] == 'X' and b9["text"] == 'X':
-        b3.config(bg='red')
-        b6.config(bg='red')
-        b9.config(bg='red')
+        b3.config(bg='#FA8072')
+        b6.config(bg='#FA8072')
+        b9.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
         disable()
 
     elif b1["text"] == 'X' and b5["text"] == 'X' and b9["text"] == 'X':
-        b1.config(bg='red')
-        b5.config(bg='red')
-        b9.config(bg='red')
+        b1.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b9.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
         disable()
 
     elif b3["text"] == 'X' and b5["text"] == 'X' and b7["text"] == 'X':
-        b3.config(bg='red')
-        b5.config(bg='red')
-        b7.config(bg='red')
+        b3.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b7.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry.get())
         disable()
 
     # checking for o
     elif b1["text"] == 'O' and b2["text"] == 'O' and b3["text"] == 'O':
-        b1.config(bg='red')
-        b2.config(bg='red')
-        b3.config(bg='red')
+        b1.config(bg='#FA8072')
+        b2.config(bg='#FA8072')
+        b3.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
         disable()
 
     elif b4["text"] == 'O' and b5["text"] == 'O' and b6["text"] == 'O':
-        b4.config(bg='red')
-        b5.config(bg='red')
-        b6.config(bg='red')
+        b4.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b6.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
         disable()
 
     elif b7["text"] == 'O' and b8["text"] == 'O' and b9["text"] == 'O':
-        b7.config(bg='red')
-        b8.config(bg='red')
-        b9.config(bg='red')
+        b7.config(bg='#FA8072')
+        b8.config(bg='#FA8072')
+        b9.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
         disable()
 
     elif b1["text"] == 'O' and b4["text"] == 'O' and b7["text"] == 'O':
-        b1.config(bg='red')
-        b4.config(bg='red')
-        b7.config(bg='red')
+        b1.config(bg='#FA8072')
+        b4.config(bg='#FA8072')
+        b7.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
         disable()
 
     elif b2["text"] == 'O' and b5["text"] == 'O' and b8["text"] == 'O':
-        b2.config(bg='red')
-        b5.config(bg='red')
-        b8.config(bg='red')
+        b2.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b8.config(bg='#FA8072')
         winner = True
-        messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
+        messagebox.showinfo("Tic-tac-Toe", sent+entry2.get())
         disable()
 
     elif b3["text"] == 'O' and b6["text"] == 'O' and b9["text"] == 'O':
-        b3.config(bg='red')
-        b6.config(bg='red')
-        b9.config(bg='red')
+        b3.config(bg='#FA8072')
+        b6.config(bg='#FA8072')
+        b9.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
         disable()
 
     elif b1["text"] == 'O' and b5["text"] == 'O' and b9["text"] == 'O':
-        b1.config(bg='red')
-        b5.config(bg='red')
-        b9.config(bg='red')
+        b1.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b9.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
         disable()
 
     elif b3["text"] == 'O' and b5["text"] == 'O' and b7["text"] == 'O':
-        b3.config(bg='red')
-        b5.config(bg='red')
-        b7.config(bg='red')
+        b3.config(bg='#FA8072')
+        b5.config(bg='#FA8072')
+        b7.config(bg='#FA8072')
         winner = True
         messagebox.showinfo("Tic-tac-Toe", sent+ entry2.get())
         disable()
