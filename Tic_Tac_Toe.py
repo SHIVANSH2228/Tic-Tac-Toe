@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter import messagebox, Button
+from tkinter import messagebox
 
 # creating main screen
 root = Tk()
